@@ -2,7 +2,7 @@ package hangMan;
 
 import java.util.Scanner;
 import java.util.concurrent.ThreadLocalRandom;
-//todo nuskaityti zodzius is failo
+
 public class GameMain {
     public static void main(String[] args) {
         //susikuriame zodziu sarasa

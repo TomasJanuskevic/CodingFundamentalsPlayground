@@ -1,4 +1,4 @@
-package bankAplication;
+package bankApplication;
 
 public class CreditCard {
     public int cardPin;
