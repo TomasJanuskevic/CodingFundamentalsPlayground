@@ -12,6 +12,17 @@ public class BankAccount {
         this.customerName = costumerName;
         this.customerId = customerId;
     }
+    private void showStartMeniu() {
+        System.out.println("Sveiki prisijunge: " + customerName);
+        System.out.println("Jusu vartotojo ID: " + customerId);
+        System.out.println();
+        System.out.println("a. Saskaitos likutis");
+        System.out.println("b. Prideti pinigu");
+        System.out.println("c. Isimti pinigu");
+        System.out.println("d. Paskutinis veiksmas");
+        System.out.println("e. Iseiti is programos");
+    }
+
     private int getUserMoneyInput() {
         int userMoneyInput;
         Scanner scanner = new Scanner(System.in);
@@ -87,7 +98,6 @@ public class BankAccount {
                     return true;
                 }
 
-
             case 'd':
                 System.out.println("=========================================");
                 System.out.println("Jusu paskutinis atliktas veiksmas:");
@@ -114,15 +124,7 @@ public class BankAccount {
             boolean continueApplication;
             char option;
             Scanner scanner = new Scanner(System.in);
-            System.out.println("Sveiki prisijunge: " + customerName);
-            System.out.println("Jusu vartotojo ID: " + customerId);
-            System.out.println();
-            System.out.println("a. Saskaitos likutis");
-            System.out.println("b. Prideti pinigu");
-            System.out.println("c. Isimti pinigu");
-            System.out.println("d. Paskutinis veiksmas");
-            System.out.println("e. Iseiti is programos");
-
+            showStartMeniu();
 
             do {
                 System.out.println("=========================================");
