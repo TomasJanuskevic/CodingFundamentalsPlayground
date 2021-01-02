@@ -1,0 +1,9 @@
+1. NEWNEWNEW, guessed number 4, number of tries 1
+2. glglgl, guessed number 2, number of tries 2
+3. Bob, guessed number 3, number of tries 3
+4. Naujas, guessed number 4, number of tries 4
+5. NEW, guessed number 6, number of tries 6
+6. Katrina, guessed number 1, number of tries 7
+7. Tomas, guessed number 8, number of tries 8
+8. pkindfjskvnzd.bvn c,z, guessed number 9, number of tries 9
+9. hahahahahaha, guessed number 9, number of tries 9
