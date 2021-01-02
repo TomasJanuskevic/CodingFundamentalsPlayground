@@ -12,14 +12,12 @@ import java.util.concurrent.ThreadLocalRandom;
 public class GuessNumberVer2 {
     public static void main(String[] args) {
         int randomNumber = ThreadLocalRandom.current().nextInt(1, 11);
-
         int userInput;
         int attempts = 0;
         String userName = getUserName();
         int position = 1;
         String FILE_LOCATION = "src/main/java/homeWorkExercises/exercise_9/highscores.txt";
         Path path = Paths.get(FILE_LOCATION);
-
 
         do {
             userInput = getUserInput();
